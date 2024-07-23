@@ -45,7 +45,6 @@ Error handling and input validation implemented.
 Javadoc documentation generated for all classes and methods.
 Documentation
 
-Comprehensive Readme file.
 ERD and SQL scripts.
 Screenshots demonstrating database creation, data insertion, and application usage.
 How to Run the Project

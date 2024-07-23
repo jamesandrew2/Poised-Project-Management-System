@@ -1,0 +1,31 @@
+# Project Management System (PMS)
+
+## Description
+This is a project management system for a small structural engineering firm called "Poised". It allows the firm to keep track of various projects, including details about architects, contractors, and customers.
+
+## Features
+- Capture information about new projects
+- Update existing projects
+- Finalise projects
+- Delete projects and associated data
+- Find incomplete projects
+- Find past due projects
+- Find projects by project number or name
+
+## Setup
+1. Install MySQL and create a database named `PMS`.
+2. Import the provided SQL script to create the necessary tables.
+3. Update the database connection details in `DatabaseConnection.java`.
+4. Compile and run the Java application.
+
+## Usage
+1. Open the `Main.java` file and run the main method to test the application.
+2. Use the various methods in `ProjectDAO` to interact with the database.
+
+## Documentation
+Generate the Javadoc by running the following command:
+```sh
+javadoc -d doc -sourcepath src -subpackages your.package.name
+
+Author
+- James Alison
